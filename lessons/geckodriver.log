@@ -1,0 +1,39 @@
+1674054385685	geckodriver	INFO	Listening on 127.0.0.1:61459
+1674054388722	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Home\\AppData\\Local\\Temp\\rust_mozprofile7WM5D7"
+1674054399443	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61460
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Home\\AppData\\Local\\Temp\\rust_mozprofile7WM5D7\\search.json.mozlz4", (void 0)))
+1674054423391	Marionette	INFO	Listening on port 61514
+Read port: 61514
+1674054423754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:61460/devtools/browser/0fc4fb77-5c2f-40b3-afca-f382d740fe49
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1672070366, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1672070366, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1674054726060	Marionette	INFO	Stopped listening on port 61514
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1674055018159	geckodriver	INFO	Listening on 127.0.0.1:52528
+1674055021178	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Home\\AppData\\Local\\Temp\\rust_mozprofile7Eyzeq"
+1674055022235	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52529
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Home\\AppData\\Local\\Temp\\rust_mozprofile7Eyzeq\\search.json.mozlz4", (void 0)))
+1674055029258	Marionette	INFO	Listening on port 52557
+DevTools listening on ws://localhost:52529/devtools/browser/43a692bf-013b-411f-b5b7-66e169743db4
+Read port: 52557
+1674055030135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1674055033256	Marionette	INFO	Stopped listening on port 52557
